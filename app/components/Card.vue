@@ -1,19 +1,16 @@
 <script setup lang="ts">
-const props = defineProps<{
-  image: string;
-}>();
 </script>
 
 <template>
   <div class="card">
     <div>
-      <img :src="props.image" alt=""/>
+      <slot name="thumbnail" mdc-unwrap="p"  />
     </div>
     <p class="title">
       <slot name="title" mdc-unwrap="p" />
     </p>
     <p class="description">
-      <slot mdc-unwrap="p"/>
+      <slot name="description" mdc-unwrap="p"/>
     </p>
   </div>
 </template>
