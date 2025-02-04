@@ -26,7 +26,7 @@
   padding: 0 0 0.5rem 0;
 }
 
-.card img {
+.card :deep(img) {
   object-fit: cover;
   width: 100%;
   height: 100%;
