@@ -5,6 +5,17 @@ date: 2025-02-03
 
 # Welcome to Nuxt Content Starter
 
+::card
+#thumbnail
+![profile.png](/profile.png)
+
+#title
+自己紹介カード
+
+#description
+こんにちは！私はICS MEDIAを執筆しています。一緒にフロントエンドについて学習していきましょう！
+::
+
 This is the main page displaying Markdown located at [content/index.md](https://github.com/larbish/starter/blob/content/content/index.md).
 
 Move to [about](/about) page.
@@ -27,15 +38,3 @@ The current [alert](https://github.com/larbish/starter/blob/content/app/componen
 ::
 
 Checkout out the [documentation](https://content.nuxt.com/docs/getting-started) to learn more.
-
-## ほんと？
-
-::prose-table
-aaa
-::
-
-# ほんと！
-
-::alert
-こんにちは
-::

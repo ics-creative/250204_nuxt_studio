@@ -13,7 +13,7 @@ if (!page.value) {
 <template>
   <div>
     <Header/>
-    <p v-if="page?.date">{{ new Date(page.date).toLocaleDateString("ja-JP") }}</p>
+    <p v-if="page?.date">{{ page.date }}</p>
     <ContentRenderer
         v-if="page"
         :value="page"
