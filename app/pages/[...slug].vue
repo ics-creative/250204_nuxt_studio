@@ -14,9 +14,6 @@ if (!page.value) {
   <div>
     <Header/>
     <p v-if="page?.date">{{ page.date }}</p>
-    <ContentRenderer
-        v-if="page"
-        :value="page"
-    />
+    <ContentRenderer v-if="page" :value="page"/>
   </div>
 </template>
