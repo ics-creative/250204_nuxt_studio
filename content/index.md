@@ -1,6 +1,7 @@
 ---
 title: Top
-date: 2025-02-03
+description: トップページ
+date: 2025-01-31T15:00:00.000Z
 ---
 
 # Welcome to Nuxt Content Starter
@@ -27,6 +28,14 @@ Create new pages or modify the existing ones in `content/` directory.
 ## Query & Render Pages
 
 You can find an example of querying contents and rendering them in a [catch-all page](https://github.com/larbish/starter/blob/content/app/pages/%5B...slug%5D.vue)
+
+## 見出し
+
+**こんにちは**
+
+::alert
+アラート
+::
 
 ## Integrate Vue Component
 
