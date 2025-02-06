@@ -1,5 +1,6 @@
 ---
 title: Top
+date: 2025-02-03
 ---
 
 # Welcome to Nuxt Content Starter
