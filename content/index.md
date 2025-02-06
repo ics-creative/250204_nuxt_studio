@@ -27,4 +27,14 @@ The current [alert](https://github.com/larbish/starter/blob/content/app/componen
 
 Checkout out the [documentation](https://content.nuxt.com/docs/getting-started) to learn more.
 
-[マイページ](/me)
+## ほんと？
+
+::prose-table
+aaa
+::
+
+# ほんと！
+
+::alert
+こんにちは
+::
